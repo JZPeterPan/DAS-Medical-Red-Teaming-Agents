@@ -1,4 +1,4 @@
-# Beyond Benchmarks: Dynamic, Automatic And Systematic Red-Teaming Agents For Trustworthy Medical Language Models <br><sub>Official PyTorch Implementation</sub>
+# Beyond Benchmarks: Dynamic, Automatic And Systematic Red-Teaming Agents For Trustworthy Medical Language Models <br><sub>Official Code Implementation</sub>
 
 [![arXiv](https://img.shields.io/badge/arXiv%20paper-2508.00923-b31b1b.svg)](https://arxiv.org/abs/2508.00923)&nbsp;
 [![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-DAS-yellow)](https://huggingface.co/datasets/JZPeterPan/DAS-Mediacal-Red-Teaming-Data)&nbsp;
@@ -7,7 +7,7 @@
   <img src="figs/main_fig.jpg" width="720">
 </p>
 
-This is a PyTorch implementation of the paper [Beyond Benchmarks: Dynamic, Automatic And Systematic Red-Teaming Agents For Trustworthy Medical Language Models](https://arxiv.org/abs/2508.00923) which stress-tests medical language models along the following axes:
+This is an OpenAI Agents SDK implementation of the paper [Beyond Benchmarks: Dynamic, Automatic And Systematic Red-Teaming Agents For Trustworthy Medical Language Models](https://arxiv.org/abs/2508.00923) which stress-tests medical language models along the following axes:
 - **Robustness**: Assessment of model resilience to adversarial manipulations
 - **Privacy**: Testing for Potential HIPPA/GDPR violations
 - **Bias**: Evaluation of racial, socioeconomic, linguistic, emotional and cognitive bias vulnerabilities in medical contexts
@@ -22,6 +22,7 @@ This is a PyTorch implementation of the paper [Beyond Benchmarks: Dynamic, Autom
 
 Still TODO:
 - [ ] Incorporate on-the-fly test of hallucination detection
+- [ ] Incorporate the implementation of the open-sourced models 
 - [ ] Documentation: Comprehensive README and usage examples
 - [ ] Benchmark GPT-5 and other latest models
 - [ ] Create live benchmarks and homepages along all testing axes
